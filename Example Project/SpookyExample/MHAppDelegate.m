@@ -3,7 +3,7 @@
 
 @implementation MHAppDelegate
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
-    [self.window makeItSnow];
+    [self.window spook];
     return YES;
 }
 @end

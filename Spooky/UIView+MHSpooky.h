@@ -4,9 +4,9 @@
 
 @interface UIView(MHSpooky)
 
-@property(nonatomic, strong) MHSpookyView *snowView;
+@property(nonatomic, strong) MHSpookyView *spookyView;
 
--(void)makeItSnow;
+-(void)spook;
 
 -(void)stopSnowing;
 

@@ -5,33 +5,33 @@
 
 @implementation UIView(MHSpooky)
 
--(void)makeItSnow{
-    if(self.snowView){
+-(void)spook{
+    if(self.spookyView){
         [self stopSnowing];
     }
-    MHSpookyView *snowView = [[MHSpookyView alloc] initWithFrame:self.frame];
-    [self addSubview:snowView];
-    snowView.layer.zPosition = MAXFLOAT;
-    [snowView beginSpooking];
-    [self setSnowView:snowView];
+    MHSpookyView *spookyView = [[MHSpookyView alloc] initWithFrame:self.frame];
+    [self addSubview:spookyView];
+    spookyView.layer.zPosition = MAXFLOAT;
+    [spookyView beginSpooking];
+    [self setSpookyView:spookyView];
 }
 
 
 -(void)stopSnowing{
-    [self.snowView stopSnowing];
-    [self.snowView removeFromSuperview];
-    self.snowView = nil;
+    [self.spookyView stopSnowing];
+    [self.spookyView removeFromSuperview];
+    self.spookyView = nil;
 }
 
 
--(void)setSnowView:(MHSpookyView *)snowView{
-    objc_setAssociatedObject(self, @selector(snowView), snowView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+-(void)setSpookyView:(MHSpookyView *)spookyView{
+    objc_setAssociatedObject(self, @selector(spookyView), spookyView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 
--(MHSpookyView *)snowView{
-    MHSpookyView *snowView = objc_getAssociatedObject(self, @selector(snowView));
-    return snowView;
+-(MHSpookyView *)spookyView{
+    MHSpookyView *spookyView = objc_getAssociatedObject(self, @selector(spookyView));
+    return spookyView;
 }
 
 @end

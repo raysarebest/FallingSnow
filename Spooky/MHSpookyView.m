@@ -76,7 +76,7 @@
     if(!_flakesArray){
         srandomdev();
         self.flakesArray = [[NSMutableArray alloc] initWithCapacity:self.flakesCount];
-        NSArray <UIImage *> *flakeImgs = @[[UIImage imageNamed:@"ghost-emoji.png"], [UIImage imageNamed:@"pumpkin.png"], [UIImage imageNamed:@"ghost.png"], [UIImage imageNamed:@"XMASSnowflake.png"]];
+        NSArray <UIImage *> *flakeImgs = @[[UIImage imageNamed:@"ghost-emoji.png"], [UIImage imageNamed:@"pumpkin.png"], [UIImage imageNamed:@"ghost.png"], [UIImage imageNamed:@"XMASSnowflake.png"], [UIImage imageNamed:@"witch-hat.png"]];
 
         for(int i = 0; i < self.flakesCount; i++){
             // Randomize Flake size
