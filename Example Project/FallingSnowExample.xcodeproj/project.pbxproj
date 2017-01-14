@@ -7,42 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		836452851DFDC26200A80566 /* UIView+XMASFallingSnow.m in Sources */ = {isa = PBXBuildFile; fileRef = 836452841DFDC26200A80566 /* UIView+XMASFallingSnow.m */; };
+		4CE2BC2B1E29D6B100E32C7F /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE2BC2A1E29D6B100E32C7F /* ghost.png */; };
+		4CE2BC2D1E29E04800E32C7F /* pumpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE2BC2C1E29E04800E32C7F /* pumpkin.png */; };
+		4CE2BC2F1E29E04E00E32C7F /* ghost-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE2BC2E1E29E04E00E32C7F /* ghost-emoji.png */; };
+		836452851DFDC26200A80566 /* UIView+MHSpooky.m in Sources */ = {isa = PBXBuildFile; fileRef = 836452841DFDC26200A80566 /* UIView+MHSpooky.m */; };
 		C2DB073B186A71C9000E45A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DB073A186A71C9000E45A8 /* Foundation.framework */; };
 		C2DB073D186A71C9000E45A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DB073C186A71C9000E45A8 /* CoreGraphics.framework */; };
 		C2DB073F186A71C9000E45A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DB073E186A71C9000E45A8 /* UIKit.framework */; };
 		C2DB0745186A71C9000E45A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2DB0743186A71C9000E45A8 /* InfoPlist.strings */; };
 		C2DB0747186A71C9000E45A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB0746186A71C9000E45A8 /* main.m */; };
-		C2DB074B186A71C9000E45A8 /* FSEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB074A186A71C9000E45A8 /* FSEAppDelegate.m */; };
+		C2DB074B186A71C9000E45A8 /* MHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB074A186A71C9000E45A8 /* MHAppDelegate.m */; };
 		C2DB074E186A71C9000E45A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DB074C186A71C9000E45A8 /* Main.storyboard */; };
-		C2DB0751186A71C9000E45A8 /* FSEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB0750186A71C9000E45A8 /* FSEViewController.m */; };
+		C2DB0751186A71C9000E45A8 /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB0750186A71C9000E45A8 /* MHViewController.m */; };
 		C2DB0753186A71C9000E45A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DB0752186A71C9000E45A8 /* Images.xcassets */; };
 		C2DB0774186A71F3000E45A8 /* XMASSnowflake.png in Resources */ = {isa = PBXBuildFile; fileRef = C2DB0771186A71F3000E45A8 /* XMASSnowflake.png */; };
-		C2DB0775186A71F3000E45A8 /* XMASFallingSnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB0773186A71F3000E45A8 /* XMASFallingSnowView.m */; };
+		C2DB0775186A71F3000E45A8 /* MHSpookyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB0773186A71F3000E45A8 /* MHSpookyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		836452821DFDC21E00A80566 /* FallingSnow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FallingSnow.h; sourceTree = "<group>"; };
-		836452831DFDC26200A80566 /* UIView+XMASFallingSnow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMASFallingSnow.h"; sourceTree = "<group>"; };
-		836452841DFDC26200A80566 /* UIView+XMASFallingSnow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMASFallingSnow.m"; sourceTree = "<group>"; };
-		C2DB0737186A71C9000E45A8 /* FallingSnowExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallingSnowExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE2BC2A1E29D6B100E32C7F /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ghost.png; path = ../../Spooky/Resources/ghost.png; sourceTree = "<group>"; };
+		4CE2BC2C1E29E04800E32C7F /* pumpkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pumpkin.png; path = ../../Spooky/Resources/pumpkin.png; sourceTree = "<group>"; };
+		4CE2BC2E1E29E04E00E32C7F /* ghost-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ghost-emoji.png"; path = "../../Spooky/Resources/ghost-emoji.png"; sourceTree = "<group>"; };
+		836452821DFDC21E00A80566 /* Spooky.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Spooky.h; path = ../Spooky/Spooky.h; sourceTree = "<group>"; };
+		836452831DFDC26200A80566 /* UIView+MHSpooky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+MHSpooky.h"; path = "../Spooky/UIView+MHSpooky.h"; sourceTree = "<group>"; };
+		836452841DFDC26200A80566 /* UIView+MHSpooky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = "UIView+MHSpooky.m"; path = "../Spooky/UIView+MHSpooky.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C2DB0737186A71C9000E45A8 /* SpookyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpookyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DB073A186A71C9000E45A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2DB073C186A71C9000E45A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C2DB073E186A71C9000E45A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C2DB0742186A71C9000E45A8 /* FallingSnowExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FallingSnowExample-Info.plist"; sourceTree = "<group>"; };
+		C2DB0742186A71C9000E45A8 /* Spooky-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Spooky-Info.plist"; path = "../SpookyExample/Spooky-Info.plist"; sourceTree = "<group>"; };
 		C2DB0744186A71C9000E45A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C2DB0746186A71C9000E45A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C2DB0748186A71C9000E45A8 /* FallingSnowExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FallingSnowExample-Prefix.pch"; sourceTree = "<group>"; };
-		C2DB0749186A71C9000E45A8 /* FSEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSEAppDelegate.h; sourceTree = "<group>"; };
-		C2DB074A186A71C9000E45A8 /* FSEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSEAppDelegate.m; sourceTree = "<group>"; };
+		C2DB0746186A71C9000E45A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../SpookyExample/main.m; sourceTree = "<group>"; };
+		C2DB0748186A71C9000E45A8 /* Spooky-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Spooky-Prefix.pch"; path = "../SpookyExample/Spooky-Prefix.pch"; sourceTree = "<group>"; };
+		C2DB0749186A71C9000E45A8 /* MHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MHAppDelegate.h; path = ../SpookyExample/MHAppDelegate.h; sourceTree = "<group>"; };
+		C2DB074A186A71C9000E45A8 /* MHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MHAppDelegate.m; path = ../SpookyExample/MHAppDelegate.m; sourceTree = "<group>"; };
 		C2DB074D186A71C9000E45A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C2DB074F186A71C9000E45A8 /* FSEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSEViewController.h; sourceTree = "<group>"; };
-		C2DB0750186A71C9000E45A8 /* FSEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSEViewController.m; sourceTree = "<group>"; };
-		C2DB0752186A71C9000E45A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2DB074F186A71C9000E45A8 /* MHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MHViewController.h; path = ../SpookyExample/MHViewController.h; sourceTree = "<group>"; };
+		C2DB0750186A71C9000E45A8 /* MHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MHViewController.m; path = ../SpookyExample/MHViewController.m; sourceTree = "<group>"; };
+		C2DB0752186A71C9000E45A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../SpookyExample/Images.xcassets; sourceTree = "<group>"; };
 		C2DB0759186A71C9000E45A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C2DB0771186A71F3000E45A8 /* XMASSnowflake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XMASSnowflake.png; sourceTree = "<group>"; };
-		C2DB0772186A71F3000E45A8 /* XMASFallingSnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMASFallingSnowView.h; sourceTree = "<group>"; };
-		C2DB0773186A71F3000E45A8 /* XMASFallingSnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMASFallingSnowView.m; sourceTree = "<group>"; };
+		C2DB0771186A71F3000E45A8 /* XMASSnowflake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = XMASSnowflake.png; path = ../../Spooky/Resources/XMASSnowflake.png; sourceTree = "<group>"; };
+		C2DB0772186A71F3000E45A8 /* MHSpookyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MHSpookyView.h; path = ../Spooky/MHSpookyView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C2DB0773186A71F3000E45A8 /* MHSpookyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MHSpookyView.m; path = ../Spooky/MHSpookyView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,7 @@
 		C2DB072E186A71C9000E45A8 = {
 			isa = PBXGroup;
 			children = (
-				C2DB0740186A71C9000E45A8 /* FallingSnowExample */,
+				C2DB0740186A71C9000E45A8 /* SpookyExample */,
 				C2DB0739186A71C9000E45A8 /* Frameworks */,
 				C2DB0738186A71C9000E45A8 /* Products */,
 			);
@@ -71,7 +77,7 @@
 		C2DB0738186A71C9000E45A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2DB0737186A71C9000E45A8 /* FallingSnowExample.app */,
+				C2DB0737186A71C9000E45A8 /* SpookyExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,49 +93,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C2DB0740186A71C9000E45A8 /* FallingSnowExample */ = {
+		C2DB0740186A71C9000E45A8 /* SpookyExample */ = {
 			isa = PBXGroup;
 			children = (
-				C2DB076F186A71F3000E45A8 /* FallingSnow */,
-				C2DB0749186A71C9000E45A8 /* FSEAppDelegate.h */,
-				C2DB074A186A71C9000E45A8 /* FSEAppDelegate.m */,
+				C2DB076F186A71F3000E45A8 /* Spooky */,
+				C2DB0749186A71C9000E45A8 /* MHAppDelegate.h */,
+				C2DB074A186A71C9000E45A8 /* MHAppDelegate.m */,
 				C2DB074C186A71C9000E45A8 /* Main.storyboard */,
-				C2DB074F186A71C9000E45A8 /* FSEViewController.h */,
-				C2DB0750186A71C9000E45A8 /* FSEViewController.m */,
+				C2DB074F186A71C9000E45A8 /* MHViewController.h */,
+				C2DB0750186A71C9000E45A8 /* MHViewController.m */,
 				C2DB0752186A71C9000E45A8 /* Images.xcassets */,
 				C2DB0741186A71C9000E45A8 /* Supporting Files */,
 			);
+			name = SpookyExample;
 			path = FallingSnowExample;
 			sourceTree = "<group>";
 		};
 		C2DB0741186A71C9000E45A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2DB0742186A71C9000E45A8 /* FallingSnowExample-Info.plist */,
+				C2DB0742186A71C9000E45A8 /* Spooky-Info.plist */,
 				C2DB0743186A71C9000E45A8 /* InfoPlist.strings */,
 				C2DB0746186A71C9000E45A8 /* main.m */,
-				C2DB0748186A71C9000E45A8 /* FallingSnowExample-Prefix.pch */,
+				C2DB0748186A71C9000E45A8 /* Spooky-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C2DB076F186A71F3000E45A8 /* FallingSnow */ = {
+		C2DB076F186A71F3000E45A8 /* Spooky */ = {
 			isa = PBXGroup;
 			children = (
 				C2DB0770186A71F3000E45A8 /* Resources */,
-				C2DB0772186A71F3000E45A8 /* XMASFallingSnowView.h */,
-				C2DB0773186A71F3000E45A8 /* XMASFallingSnowView.m */,
-				836452821DFDC21E00A80566 /* FallingSnow.h */,
-				836452831DFDC26200A80566 /* UIView+XMASFallingSnow.h */,
-				836452841DFDC26200A80566 /* UIView+XMASFallingSnow.m */,
+				C2DB0772186A71F3000E45A8 /* MHSpookyView.h */,
+				C2DB0773186A71F3000E45A8 /* MHSpookyView.m */,
+				836452821DFDC21E00A80566 /* Spooky.h */,
+				836452831DFDC26200A80566 /* UIView+MHSpooky.h */,
+				836452841DFDC26200A80566 /* UIView+MHSpooky.m */,
 			);
-			name = FallingSnow;
+			name = Spooky;
 			path = ../../FallingSnow;
 			sourceTree = "<group>";
 		};
 		C2DB0770186A71F3000E45A8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4CE2BC2E1E29E04E00E32C7F /* ghost-emoji.png */,
+				4CE2BC2C1E29E04800E32C7F /* pumpkin.png */,
+				4CE2BC2A1E29D6B100E32C7F /* ghost.png */,
 				C2DB0771186A71F3000E45A8 /* XMASSnowflake.png */,
 			);
 			path = Resources;
@@ -138,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2DB0736186A71C9000E45A8 /* FallingSnowExample */ = {
+		C2DB0736186A71C9000E45A8 /* SpookyExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2DB0769186A71C9000E45A8 /* Build configuration list for PBXNativeTarget "FallingSnowExample" */;
+			buildConfigurationList = C2DB0769186A71C9000E45A8 /* Build configuration list for PBXNativeTarget "SpookyExample" */;
 			buildPhases = (
 				C2DB0733186A71C9000E45A8 /* Sources */,
 				C2DB0734186A71C9000E45A8 /* Frameworks */,
@@ -150,9 +160,9 @@
 			);
 			dependencies = (
 			);
-			name = FallingSnowExample;
+			name = SpookyExample;
 			productName = VENSnowOverlayViewExample;
-			productReference = C2DB0737186A71C9000E45A8 /* FallingSnowExample.app */;
+			productReference = C2DB0737186A71C9000E45A8 /* SpookyExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,6 +174,11 @@
 				CLASSPREFIX = XMAS;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Chris Maddern";
+				TargetAttributes = {
+					C2DB0736186A71C9000E45A8 = {
+						DevelopmentTeam = K3ZLWH83BT;
+					};
+				};
 			};
 			buildConfigurationList = C2DB0732186A71C9000E45A8 /* Build configuration list for PBXProject "FallingSnowExample" */;
 			compatibilityVersion = "Xcode 6.3";
@@ -178,7 +193,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2DB0736186A71C9000E45A8 /* FallingSnowExample */,
+				C2DB0736186A71C9000E45A8 /* SpookyExample */,
 			);
 		};
 /* End PBXProject section */
@@ -188,9 +203,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE2BC2F1E29E04E00E32C7F /* ghost-emoji.png in Resources */,
 				C2DB0753186A71C9000E45A8 /* Images.xcassets in Resources */,
+				4CE2BC2B1E29D6B100E32C7F /* ghost.png in Resources */,
 				C2DB0745186A71C9000E45A8 /* InfoPlist.strings in Resources */,
 				C2DB0774186A71F3000E45A8 /* XMASSnowflake.png in Resources */,
+				4CE2BC2D1E29E04800E32C7F /* pumpkin.png in Resources */,
 				C2DB074E186A71C9000E45A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,10 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836452851DFDC26200A80566 /* UIView+XMASFallingSnow.m in Sources */,
-				C2DB0775186A71F3000E45A8 /* XMASFallingSnowView.m in Sources */,
-				C2DB0751186A71C9000E45A8 /* FSEViewController.m in Sources */,
-				C2DB074B186A71C9000E45A8 /* FSEAppDelegate.m in Sources */,
+				836452851DFDC26200A80566 /* UIView+MHSpooky.m in Sources */,
+				C2DB0775186A71F3000E45A8 /* MHSpookyView.m in Sources */,
+				C2DB0751186A71C9000E45A8 /* MHViewController.m in Sources */,
+				C2DB074B186A71C9000E45A8 /* MHAppDelegate.m in Sources */,
 				C2DB0747186A71C9000E45A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +237,7 @@
 				C2DB0744186A71C9000E45A8 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ../SpookyExample;
 			sourceTree = "<group>";
 		};
 		C2DB074C186A71C9000E45A8 /* Main.storyboard */ = {
@@ -227,6 +246,7 @@
 				C2DB074D186A71C9000E45A8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../SpookyExample;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -318,12 +338,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = K3ZLWH83BT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FallingSnowExample/FallingSnowExample-Prefix.pch";
-				INFOPLIST_FILE = "FallingSnowExample/FallingSnowExample-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = cm.wtf.FallingSnowExample;
+				GCC_PREFIX_HEADER = "SpookyExample/Spooky-Prefix.pch";
+				INFOPLIST_FILE = "SpookyExample/Spooky-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.SpookyExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -333,12 +355,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = K3ZLWH83BT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FallingSnowExample/FallingSnowExample-Prefix.pch";
-				INFOPLIST_FILE = "FallingSnowExample/FallingSnowExample-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = cm.wtf.FallingSnowExample;
+				GCC_PREFIX_HEADER = "SpookyExample/Spooky-Prefix.pch";
+				INFOPLIST_FILE = "SpookyExample/Spooky-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.SpookyExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -355,7 +379,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2DB0769186A71C9000E45A8 /* Build configuration list for PBXNativeTarget "FallingSnowExample" */ = {
+		C2DB0769186A71C9000E45A8 /* Build configuration list for PBXNativeTarget "SpookyExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2DB076A186A71C9000E45A8 /* Debug */,
